@@ -1,0 +1,8 @@
+---
+applications:
+- name: hcp-cf-redis-tutorial
+  memory: 756M
+  host: hcp-cf-redis-tutorial
+  path: target/hcp-cf-redis-tutorial-1.0.jar
+  services:
+  - lindsay-redis
